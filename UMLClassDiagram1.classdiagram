@@ -1,0 +1,1205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="8e8526b7-29b8-4b44-a8ea-b0e4b782adc8" name="UMLClassDiagram1" linkedPackageId="43704878-aa40-4b62-b166-4da74ba4405a" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <ownedCommentsInternal>
+    <comment Id="8f9dd217-0541-4416-b78c-32f10a43ec0e">
+      <elementDefinition Id="5a0ebbf1-5be4-44ce-8fb0-db7dfc3dee78" />
+      <body>(QQuickItem)</body>
+      <annotatedElements>
+        <classMoniker Id="cc8cab5d-e579-49ac-9d3e-0df2f8592d6e" LastKnownName="Item" />
+      </annotatedElements>
+    </comment>
+    <comment Id="4dd6ba9b-9f98-4c74-9e58-6b0ca3bef42e">
+      <elementDefinition Id="6b42229f-972e-4a47-998a-fc02e57e91dc" />
+      <body>QObject</body>
+      <annotatedElements>
+        <classMoniker Id="35dabfd9-414e-4138-a644-872bf11dc3a5" LastKnownName="QtObject" />
+      </annotatedElements>
+    </comment>
+    <comment Id="62c644b9-f2b8-4aa1-858d-7593883eb53c">
+      <elementDefinition Id="1d3b6917-ff0c-4fff-a7ca-53d87970c905" />
+      <body>QQuickWindow</body>
+      <annotatedElements>
+        <classMoniker Id="eb5a96e7-8bca-45dd-a95e-b4d270951059" LastKnownName="Window" />
+      </annotatedElements>
+    </comment>
+    <comment Id="a6390b83-fb70-4a44-9ada-a348d418cc4b">
+      <elementDefinition Id="13406d28-61cd-4306-9007-86808abee10f" />
+      <body>QQuickText
+</body>
+      <annotatedElements>
+        <classMoniker Id="169fab97-3ae3-432a-9586-921eb0a31e24" LastKnownName="Label" />
+      </annotatedElements>
+    </comment>
+    <comment Id="a15203b8-d176-4f5a-85b0-482080b4d3d8">
+      <elementDefinition Id="913c80ad-7aa5-4782-99b0-fb936f2e9c00" />
+      <body>QQuickColumn</body>
+      <annotatedElements>
+        <classMoniker Id="e0b952bd-7418-42d5-8726-5d31e881a725" LastKnownName="Column" />
+      </annotatedElements>
+    </comment>
+    <comment Id="4df23a6e-1894-456c-8765-587f2e8eb61f">
+      <elementDefinition Id="7c449215-a168-4724-b4d4-76ded5e22e45" />
+      <body>QQuickGrid</body>
+      <annotatedElements>
+        <classMoniker Id="c6fb93b4-bfe0-4d08-8425-8a01a24c952e" LastKnownName="Grid" />
+      </annotatedElements>
+    </comment>
+    <comment Id="4f0f7144-568f-4f59-93aa-573d0da21c96">
+      <elementDefinition Id="78adc57e-afa3-4c49-83c3-1540157651b4" />
+      <body>QQuickRow</body>
+      <annotatedElements>
+        <classMoniker Id="efd4e47e-076c-44b8-a586-f67dc347f647" LastKnownName="Row" />
+      </annotatedElements>
+    </comment>
+    <comment Id="a9d561c3-485c-4c35-9bc7-1d6ec4b49a10">
+      <elementDefinition Id="360428ae-8fa6-46b8-b935-068c30507581" />
+      <body>QQuickLoader</body>
+      <annotatedElements>
+        <classMoniker Id="62c212eb-2b71-483c-b2f4-43e6ef92232a" LastKnownName="Loader" />
+      </annotatedElements>
+    </comment>
+    <comment Id="4d9b6992-fcc9-4c04-8492-50f5bc904b63">
+      <appliedStereotypesInternal>
+        <stereotypeInstance Id="93199729-9945-4dbd-9182-328a3f35121c" name="TextTemplateBindings" profile="TextTemplateBindings">
+          <elementDefinition Id="9dd0eb48-5e2e-478e-ad61-0fd7afe95efd" />
+          <propertyInstances>
+            <stereotypeInstanceHasPropertyInstances Id="bbf83b6a-985f-4c1d-852e-cbcf828f3563">
+              <propertyInstance Id="867aa00f-9b14-4d9e-968c-8c0f7c782892" name="Alias">
+                <elementDefinition Id="98e86047-5ca3-406a-a77a-43791ca2737a" />
+              </propertyInstance>
+              <elementDefinition Id="356cb53a-1f37-439e-9b7b-65be9c510220" />
+            </stereotypeInstanceHasPropertyInstances>
+            <stereotypeInstanceHasPropertyInstances Id="80be4844-320c-4211-b776-b219d88ec813">
+              <propertyInstance Id="6df3491b-db4d-4c05-ba17-fe9352ed78cc" name="TemplateFilePath">
+                <elementDefinition Id="070084a2-28a7-485c-90d7-8768b6606493" />
+              </propertyInstance>
+              <elementDefinition Id="970f7684-468a-48c8-8d2b-f7c67e3ba247" />
+            </stereotypeInstanceHasPropertyInstances>
+            <stereotypeInstanceHasPropertyInstances Id="02028ea9-b13e-404a-99fa-b471351e4487">
+              <propertyInstance Id="fea700f6-24ff-42cf-89de-fc527e5ba645" name="ProjectPath">
+                <elementDefinition Id="9a751353-c310-44a8-a403-6d26a5c1856c" />
+              </propertyInstance>
+              <elementDefinition Id="7a53645d-1e45-419e-af20-290ab1c4179f" />
+            </stereotypeInstanceHasPropertyInstances>
+            <stereotypeInstanceHasPropertyInstances Id="4db85a02-6c6e-43ae-9937-b59829dd8daf">
+              <propertyInstance Id="b8b3ea76-9b33-4daf-a78e-efc3c98f9001" name="TargetDirectory">
+                <elementDefinition Id="12924704-c28e-440e-ac18-d3a2a23bc44c" />
+              </propertyInstance>
+              <elementDefinition Id="8a866151-30f5-4817-a191-5d003540d65b" />
+            </stereotypeInstanceHasPropertyInstances>
+            <stereotypeInstanceHasPropertyInstances Id="24c1b977-bdb9-42da-8d51-ab39920b281a">
+              <propertyInstance Id="bd00ea0d-bf49-4e70-a74d-7811a189a2a2" name="TargetName">
+                <elementDefinition Id="195541e4-5371-4fa1-9fad-fa5042311bb7" />
+              </propertyInstance>
+              <elementDefinition Id="00fcbde0-ac30-4df9-b981-4643dd47819d" />
+            </stereotypeInstanceHasPropertyInstances>
+            <stereotypeInstanceHasPropertyInstances Id="7793ceb7-37ba-4a16-b8c1-296ba38d2587">
+              <propertyInstance Id="72d70fbb-7566-4536-8be7-2416e402d7e1" name="Overwrite">
+                <elementDefinition Id="4706f142-f769-48c8-9247-848472f193b3" />
+              </propertyInstance>
+              <elementDefinition Id="c61dec4b-7173-457d-b939-3494c6d9d872" />
+            </stereotypeInstanceHasPropertyInstances>
+            <stereotypeInstanceHasPropertyInstances Id="b3c979ca-4376-4388-ae08-414bb5936a2b">
+              <propertyInstance Id="2fe6e397-ad66-473c-8846-5c754f1dd957" name="Parameters">
+                <elementDefinition Id="80bb8618-a518-482d-98c9-2803dcea644d" />
+              </propertyInstance>
+              <elementDefinition Id="62dca43a-cd52-4ce5-a805-6014fce7d7af" />
+            </stereotypeInstanceHasPropertyInstances>
+          </propertyInstances>
+        </stereotypeInstance>
+      </appliedStereotypesInternal>
+      <elementDefinition Id="fddbf01a-9f16-43c5-95c1-c035afd337eb" />
+      <body>QQuickText</body>
+      <annotatedElements>
+        <classMoniker Id="4e3bb30f-d15e-4ac3-8fa3-5193acb4e27e" LastKnownName="Text" />
+      </annotatedElements>
+    </comment>
+    <comment Id="65b0887c-0c99-48b2-93e4-80b740523955">
+      <elementDefinition Id="720c9952-1558-4d3b-b777-f1f12696caa3" />
+      <body>QQuickFocusScope</body>
+      <annotatedElements>
+        <classMoniker Id="4394e03b-f0a9-4ab5-b08d-167c1fc651eb" LastKnownName="FocusScope" />
+      </annotatedElements>
+    </comment>
+    <comment Id="802b6525-45dd-450d-8275-c9f932bd100b">
+      <elementDefinition Id="77d6da23-fc4a-42c1-90bd-2b25ca5dc101" />
+      <body>QQuickTextInput</body>
+      <annotatedElements>
+        <classMoniker Id="5c4cbf87-1881-4359-974b-007fc7cf49f2" LastKnownName="TextInput" />
+      </annotatedElements>
+    </comment>
+    <comment Id="18290c7b-f1fe-4a93-a499-5e7107d7ae0f">
+      <elementDefinition Id="6bee9145-dd38-44aa-8a72-e9542bef8636" />
+      <body>QQuickTextEdit</body>
+      <annotatedElements>
+        <classMoniker Id="93cd5a75-0541-47d2-b672-13a8e1ca970a" LastKnownName="TextEdit" />
+      </annotatedElements>
+    </comment>
+    <comment Id="5330a8e0-5121-429e-b1f1-6c8658fdf3c5">
+      <elementDefinition Id="48f6cb64-36b7-4b77-a76d-835e8461e7b8" />
+      <body>QQuickImage</body>
+      <annotatedElements>
+        <classMoniker Id="46d08854-3f0b-4d41-883b-650335410223" LastKnownName="Image" />
+      </annotatedElements>
+    </comment>
+    <comment Id="0dbc6315-0e3d-482c-9a04-fee39689006c">
+      <elementDefinition Id="0f898606-811d-4406-b746-bd54ef87102f" />
+      <body>QQuickAnimatedImage</body>
+      <annotatedElements>
+        <classMoniker Id="6d7191e3-5521-4ca2-b295-6a71c1a341c8" LastKnownName="AnimatedImage" />
+      </annotatedElements>
+    </comment>
+    <comment Id="d5ef691f-2768-4e48-b452-5ececb88e921">
+      <elementDefinition Id="fbef3acd-b8ce-4b84-a974-41c0fc21e16e" />
+      <body>QQuickAction</body>
+      <annotatedElements>
+        <classMoniker Id="6e91f997-267d-4c72-a76e-ba7a3481f525" LastKnownName="Action" />
+      </annotatedElements>
+    </comment>
+    <comment Id="f58709d1-9158-4d50-8867-37b63c192e9c">
+      <elementDefinition Id="7445c2ac-04cc-4dbd-9b4c-edcb17708e04" />
+      <body>QMLTYPE</body>
+      <annotatedElements>
+        <classMoniker Id="d34600e9-7dce-4295-bd8d-af519b9c8240" LastKnownName="TabView" />
+      </annotatedElements>
+    </comment>
+    <comment Id="0f190e23-0e0e-4952-a97f-f3fff4da1473">
+      <elementDefinition Id="7b904d66-bd2d-4ef5-a818-da1e7669a8e9" />
+      <body>QMLTYPE</body>
+      <annotatedElements>
+        <classMoniker Id="5f6e5cec-d6ae-4464-85e2-f42c411e712e" LastKnownName="MenuBar" />
+      </annotatedElements>
+    </comment>
+    <comment Id="b499e600-08c1-44a8-99ef-aff5ec3738c7">
+      <elementDefinition Id="ecc8bb08-9eea-4d2e-8f17-a15ae3d63f72" />
+      <body>QMLTYPE</body>
+      <annotatedElements>
+        <classMoniker Id="cc817eb0-c267-405e-bec5-c74a458f17a9" LastKnownName="Menu" />
+      </annotatedElements>
+    </comment>
+    <comment Id="236414db-e91e-4105-985b-d3e99dc5a166">
+      <elementDefinition Id="e40e934b-f160-45ee-b14c-d7ebefe9b859" />
+      <body>QQuickMenuItem1</body>
+      <annotatedElements>
+        <classMoniker Id="a35a6594-9527-4d5c-b702-8203ff1f70b0" LastKnownName="MenuItem" />
+      </annotatedElements>
+    </comment>
+    <comment Id="ec18011d-6586-447b-badf-522633584022">
+      <elementDefinition Id="50968d9f-3e0e-4808-9484-77a26235ddee" />
+      <body>QQuickMenuSeparator</body>
+      <annotatedElements>
+        <classMoniker Id="ea76ee1c-d7b1-4a72-945c-3b9d4d1e4d3b" LastKnownName="MenuSeparator" />
+      </annotatedElements>
+    </comment>
+    <comment Id="044e7ca1-3baf-4331-8a57-d74937497287">
+      <elementDefinition Id="8da84272-b6da-4cf0-8eae-2b1f954839c8" />
+      <body>QMLTYPE</body>
+      <annotatedElements>
+        <classMoniker Id="29c3c49b-9374-4f66-be40-0053bbdf9af9" LastKnownName="Button" />
+      </annotatedElements>
+    </comment>
+    <comment Id="5b540b86-5157-464c-8261-7c439356c116">
+      <elementDefinition Id="20378704-406f-40a5-99b1-eacd45c1d852" />
+      <body>QMLTYPE</body>
+      <annotatedElements>
+        <classMoniker Id="d161ce8e-9c56-4f31-885f-af2f90dab0f8" LastKnownName="ToolButton" />
+      </annotatedElements>
+    </comment>
+    <comment Id="4be5c9ce-55a4-41a1-85d8-9df186ef26e6">
+      <elementDefinition Id="ce7ced57-1484-460a-a33e-388ee345ad99" />
+      <body>QMLTYPE</body>
+      <annotatedElements>
+        <classMoniker Id="50fb6417-7e6d-4e44-8a2c-712b03980e15" LastKnownName="TextArea" />
+      </annotatedElements>
+    </comment>
+    <comment Id="771390e4-6e9c-4e62-a6f2-53a0a3c9012c">
+      <elementDefinition Id="702e3cd2-0957-4d1a-9783-b69c082a6b9a" />
+      <body>QMLTYPE</body>
+      <annotatedElements>
+        <classMoniker Id="95c54e7d-3011-475d-8ec4-62de5a93d58a" LastKnownName="Tab" />
+      </annotatedElements>
+    </comment>
+    <comment Id="51e5833b-6630-4660-a8c8-3c66d12c4efc">
+      <elementDefinition Id="95603297-d041-451f-b6a5-e98d7cb552a3" />
+      <body>类的注释为QML对应的c++类型，如没有对应为QML类型组件</body>
+    </comment>
+    <comment Id="4297b75f-6fc3-4c9e-918f-711218b612ae">
+      <elementDefinition Id="b75f9614-e156-4502-afd6-6b46df9e981b" />
+      <body>QMLTYPE</body>
+      <annotatedElements>
+        <classMoniker Id="e202db16-0ce3-4432-ac0e-809ea61e8448" LastKnownName="ComboBox" />
+      </annotatedElements>
+    </comment>
+    <comment Id="a542da96-351c-4923-aef7-e56c126952ca">
+      <elementDefinition Id="b30cb981-b114-40a8-aefd-a15e3472b0d7" />
+      <body>QMLTYPE</body>
+      <annotatedElements>
+        <classMoniker Id="8ad07e61-cf7f-4dd7-9152-adc642027c76" LastKnownName="CheckBox" />
+      </annotatedElements>
+    </comment>
+    <comment Id="4f3e7058-3049-4130-ae67-59a140db355a">
+      <elementDefinition Id="8b4481a7-d4b6-4151-adc6-da12df0f9557" />
+      <body>QMLTYPE</body>
+      <annotatedElements>
+        <classMoniker Id="effba91d-8a9a-4d85-aac2-bfac28145485" LastKnownName="Slider" />
+      </annotatedElements>
+    </comment>
+    <comment Id="f464854a-4d5a-4b7f-8408-33b7d943173b">
+      <elementDefinition Id="27318349-8ad1-478d-93ae-061650fff2b3" />
+      <body>QMLTYPE</body>
+      <annotatedElements>
+        <classMoniker Id="cdab7ff0-902e-4ad8-88fa-b3d423506e2d" LastKnownName="RadioButton" />
+      </annotatedElements>
+    </comment>
+    <comment Id="5d1d7602-5911-4f69-9a86-7b7b1802bf4f">
+      <elementDefinition Id="b010524e-cded-4b8b-90d2-daa6accf01bd" />
+      <body>QQuickFlow</body>
+      <annotatedElements>
+        <classMoniker Id="ea850ed6-e834-4b8c-baf6-f2054891708f" LastKnownName="Flow" />
+      </annotatedElements>
+    </comment>
+    <comment Id="9c306ea8-c724-4317-9712-b97c61ec161a">
+      <elementDefinition Id="15b6e23f-56dd-4690-bdff-00bd5945df2f" />
+      <body>QQuickRowLayout</body>
+      <annotatedElements>
+        <classMoniker Id="b872f9d2-f2a7-474d-a97f-18318eb1b1d2" LastKnownName="RowLayout" />
+      </annotatedElements>
+    </comment>
+    <comment Id="a66a2b09-77bf-47c2-8015-d4c10917b33c">
+      <elementDefinition Id="7c3756a4-fa2c-4527-8672-4aba3c0b7be7" />
+      <body>QQuickColumnLayout</body>
+      <annotatedElements>
+        <classMoniker Id="2469e32b-e464-4f6c-b1a3-e56435d5c89b" LastKnownName="ColumnLayout" />
+      </annotatedElements>
+    </comment>
+    <comment Id="9786a11e-836c-4203-a2d3-1083e9a97945">
+      <elementDefinition Id="cb38f782-aa09-4ca6-a3e3-f896fca2707f" />
+      <body>QQuickGridLayout</body>
+      <annotatedElements>
+        <classMoniker Id="0d5259fd-f4d7-402b-b61f-75e2a7e6afe0" LastKnownName="GridLayout" />
+      </annotatedElements>
+    </comment>
+    <comment Id="08f5bd24-5bab-481c-a530-614bce79fa32">
+      <elementDefinition Id="b0e69fc5-9521-421d-84b5-3d63b2d31846" />
+      <body>QMLTYPE</body>
+      <annotatedElements>
+        <classMoniker Id="4356adbd-71c9-48d8-9537-33f399cfee6b" LastKnownName="SplitView" />
+      </annotatedElements>
+    </comment>
+    <comment Id="f92bc9ff-4ad2-4df3-b898-77541b04dce9">
+      <elementDefinition Id="5b091232-0bd4-4d38-add1-217a59c07d83" />
+      <body>QMLTYPE</body>
+      <annotatedElements>
+        <classMoniker Id="19a1299b-cf0f-417d-ac43-783a7e64b446" LastKnownName="GroupBox" />
+      </annotatedElements>
+    </comment>
+    <comment Id="0419e2fb-cd68-4984-84cc-df9df2ca6201">
+      <elementDefinition Id="cfb7ba17-1b67-4336-9bdc-84e0ea036011" />
+      <body>QMLTYPE</body>
+      <annotatedElements>
+        <classMoniker Id="3fabd2a9-8117-4454-b777-12c6dc08d8e6" LastKnownName="ProgressBar" />
+      </annotatedElements>
+    </comment>
+    <comment Id="74304d73-b001-4e1c-9128-8e091350116f">
+      <elementDefinition Id="196eec5b-0f87-452f-90ee-f336ecf18e81" />
+      <body>QMLTYPE</body>
+      <annotatedElements>
+        <classMoniker Id="9b6f9644-1216-4c12-ae6e-7e9582d7a72b" LastKnownName="SpinBox" />
+      </annotatedElements>
+    </comment>
+    <comment Id="58f305ab-731b-4d4e-bd92-86dc495d8d84">
+      <elementDefinition Id="bd02052a-827c-4a68-8f19-6ca809247b6d" />
+      <body>QMLTYPE</body>
+      <annotatedElements>
+        <classMoniker Id="49698a8a-3edf-49f3-863a-c4a6e3cb3b89" LastKnownName="TreeView" />
+      </annotatedElements>
+    </comment>
+    <comment Id="c3ea94db-98f6-4d94-a047-6dab6d1dbb36">
+      <elementDefinition Id="baeb8613-a979-4d30-8042-31ad91f958d9" />
+      <body>QMLTYPE</body>
+      <annotatedElements>
+        <classMoniker Id="aa7f93f3-2488-49b2-8abf-6fba693ae36c" LastKnownName="TableView" />
+      </annotatedElements>
+    </comment>
+    <comment Id="02d80849-254b-4231-982e-b0ae1900ca3b">
+      <elementDefinition Id="6d16fbdd-9d4c-4658-bd11-c5dc4f6c6113" />
+      <body>QQuickListView</body>
+      <annotatedElements>
+        <classMoniker Id="4789697d-6910-4b84-9ee7-669ccf71e7a8" LastKnownName="ListView" />
+      </annotatedElements>
+    </comment>
+    <comment Id="bd51e880-d389-4396-ae76-dc6c94cc3f25">
+      <elementDefinition Id="26b8db10-8759-4e23-9f57-a3eea09aeca8" />
+      <body>QQuickGridView</body>
+      <annotatedElements>
+        <classMoniker Id="e8566865-8c8f-4578-8a24-d268a05f4b09" LastKnownName="GridView" />
+      </annotatedElements>
+    </comment>
+    <comment Id="bfe1422b-c65f-4fb2-84c6-91b8c18dc038">
+      <elementDefinition Id="53425b83-4d8f-4f47-8895-a07925eacb3a" />
+      <body>QQuickPathView</body>
+      <annotatedElements>
+        <classMoniker Id="28447e24-be56-43e9-9eaf-bb5fae17f57c" LastKnownName="PathView" />
+      </annotatedElements>
+    </comment>
+    <comment Id="a9a1e2d9-2e0a-439b-bdd4-3333cfc33970">
+      <elementDefinition Id="e505df7e-92f0-4cd2-9cab-f7958853cf6d" />
+      <body>QQuickFlickable</body>
+      <annotatedElements>
+        <classMoniker Id="ddafd6f6-ea18-485d-b445-e87e9f173568" LastKnownName="Flickable" />
+      </annotatedElements>
+    </comment>
+    <comment Id="a4ea2dd9-674f-4e0d-8f17-f5f009f63f8f">
+      <elementDefinition Id="4021b3f1-17c6-4bc0-bfea-332d7f2c1096" />
+      <body>QQuickMouseArea</body>
+      <annotatedElements>
+        <classMoniker Id="6ad2876a-f177-43d9-9540-8040c11fd044" LastKnownName="MouseArea" />
+      </annotatedElements>
+    </comment>
+    <comment Id="34bb1831-25ad-4a50-a50a-dc031516f661">
+      <elementDefinition Id="265ade5c-10aa-41f5-b55d-8f412f14f4a2" />
+      <body>QMLTYPE</body>
+      <annotatedElements>
+        <classMoniker Id="04b2fe7b-2a89-4baf-aa49-9deb3b4dc3e6" LastKnownName="SplitView" />
+      </annotatedElements>
+    </comment>
+    <comment Id="3015b161-df7a-4cda-87b4-85fb4b8bd1b7">
+      <elementDefinition Id="9c8ec614-f08a-4c0d-968d-8e88e4169e03" />
+      <body>QMLTYPE</body>
+      <annotatedElements>
+        <classMoniker Id="9ae365a3-c7b2-4fd6-8e64-2da711a24b3b" LastKnownName="StatusBar" />
+      </annotatedElements>
+    </comment>
+    <comment Id="b8efd44b-2ec6-4260-bfd3-520e4297a39f">
+      <elementDefinition Id="d50f9351-3d01-42f9-8f16-6721a862e143" />
+      <body>QMLTYPE</body>
+      <annotatedElements>
+        <classMoniker Id="1894c48e-348d-4019-b2dc-564dee670a5b" LastKnownName="ToolBar" />
+      </annotatedElements>
+    </comment>
+    <comment Id="6020008a-b8f1-4e2a-8932-fa31b05c6a20">
+      <elementDefinition Id="e44d2f4f-af6e-4e38-8cea-fd7f4db2834a" />
+      <body>QMLTYPE</body>
+      <annotatedElements>
+        <classMoniker Id="49dba077-e0b5-4f41-8d3a-5107daa580a5" LastKnownName="TextField" />
+      </annotatedElements>
+    </comment>
+    <comment Id="c45c8d8c-09b7-4429-a597-a08d0b1f6ebd">
+      <elementDefinition Id="d273e411-5903-42f8-81f1-ba92cf1266c1" />
+      <body>QMLTYPE</body>
+      <annotatedElements>
+        <classMoniker Id="963d534e-03c3-462b-9789-0f84d2ac2dce" LastKnownName="StackView" />
+      </annotatedElements>
+    </comment>
+    <comment Id="db1f9c4f-2e41-4f87-9157-464f248f4c21">
+      <elementDefinition Id="30d70fb9-7943-4aa2-8016-6521e1cd410b" />
+      <body>QMLTYPE</body>
+      <annotatedElements>
+        <classMoniker Id="cff8f275-b28d-4b35-922a-34bc3da97f62" LastKnownName="Switch" />
+      </annotatedElements>
+    </comment>
+    <comment Id="149528b3-bceb-4324-812f-cc2732ae913c">
+      <elementDefinition Id="4d15053e-8b53-4f15-96c8-3d729dc399c8" />
+      <body>QMLTYPE</body>
+      <annotatedElements>
+        <classMoniker Id="94f2a2e3-86c4-4bd6-96a4-25463ad20131" LastKnownName="Calendar" />
+      </annotatedElements>
+    </comment>
+    <comment Id="bcba4517-72fb-4672-ac4b-09e35f581968">
+      <elementDefinition Id="dc5e0a31-aa79-432e-94ce-108f76505c52" />
+      <body>QMLTYPE</body>
+      <annotatedElements>
+        <classMoniker Id="63df301a-4c67-4c00-9dca-d46b66b0e8d4" LastKnownName="BusyIndicator" />
+      </annotatedElements>
+    </comment>
+    <comment Id="52f4a9a5-5c59-45c7-8457-1012f99400b5">
+      <elementDefinition Id="e6b2fc85-e004-41ba-b3e8-bcfb0dfdb37e" />
+      <body>QMLTYPE</body>
+      <annotatedElements>
+        <classMoniker Id="f3414790-4172-4b92-92a4-bb4fa80bf33a" LastKnownName="ApplicationWindow" />
+      </annotatedElements>
+    </comment>
+    <comment Id="18554529-8de4-40a7-a296-ad84ed09cee8">
+      <elementDefinition Id="08e0f914-5b75-4136-ad6b-ea7106bdad0b" />
+      <body>QMLTYPE</body>
+      <annotatedElements>
+        <classMoniker Id="45d50abd-3629-4560-964b-0ddf93a13b17" LastKnownName="TableViewColumn" />
+      </annotatedElements>
+    </comment>
+    <comment Id="fdd0ddb6-2a93-4fd0-8c12-aa3febd6de19">
+      <elementDefinition Id="d5fa9b29-5585-4cef-bd19-3f787d6547c1" />
+      <body>QMLTYPE</body>
+      <annotatedElements>
+        <classMoniker Id="3f90ed2d-7a52-4fcc-8b93-8ac5f80f14c2" LastKnownName="StackViewDelegate" />
+      </annotatedElements>
+    </comment>
+    <comment Id="7fea6367-1829-4450-8b03-bebe32dae004">
+      <elementDefinition Id="d9f125cb-aad9-4a0e-856a-0af38f039e22" />
+      <body>QMLTYPE</body>
+      <annotatedElements>
+        <classMoniker Id="65dcf0d0-5e7b-489c-96ce-24df37a756f6" LastKnownName="ScrollView" />
+      </annotatedElements>
+    </comment>
+  </ownedCommentsInternal>
+  <appliedStereotypesInternal>
+    <stereotypeInstance Id="9b78234b-00b6-4abf-9817-e0988c5076d7" name="namespace" profile="CSharpProfile">
+      <elementDefinition Id="1c5e64bc-8b9d-4642-bfe4-d76697b57692" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="29b1cfad-05ca-486e-8bb6-e1486863df99">
+          <propertyInstance Id="35c7a6a2-f0e3-4dd1-88e0-3d87d6431961" name="BaseName">
+            <elementDefinition Id="ccca7a02-0a11-4e7d-8dcc-71aa70772f0f" />
+          </propertyInstance>
+          <elementDefinition Id="1203f682-0b51-4c75-be36-83443d38df1c" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="273f372e-564c-4bf9-bd58-bacc030c0e5a">
+          <propertyInstance Id="57226160-4624-40e0-8990-51db5eaf9066" name="ClrAttributes">
+            <elementDefinition Id="4f9beae9-e31d-417b-a04e-c59618fe868d" />
+          </propertyInstance>
+          <elementDefinition Id="1c4f587c-b2c8-4fdc-8011-3f352f9a6a34" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="251c0bde-83d0-49ae-aae7-f5dbe9b5a293">
+          <propertyInstance Id="e33d8e94-5baa-4b8c-97cc-a5880bc61c79" name="Usings">
+            <elementDefinition Id="0521e335-2ea7-45f2-b171-5de75e1e9582" />
+          </propertyInstance>
+          <elementDefinition Id="44d8f109-dab8-4256-a9c3-6ae846da3295" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance Id="f2a4dd3f-636f-4e6f-bb9a-3b21be98b4a5" name="TextTemplateBindings" profile="TextTemplateBindings">
+      <elementDefinition Id="37fe7a5e-3544-41aa-9096-f41bee5b4f77" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="20fcbad9-de01-4dd9-b844-9165cfe09639">
+          <propertyInstance Id="d0cdba64-09ee-4de8-a55e-1a528ff94b15" name="Alias" value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate">
+            <elementDefinition Id="3a3db4b0-aa2f-4ba9-8253-c67bd310a428" />
+          </propertyInstance>
+          <elementDefinition Id="fe19a3b0-895e-4e83-8d8c-0fb3fcf83651" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="465d2161-6149-45da-834a-6d33964dc288">
+          <propertyInstance Id="902b13cc-fba9-404a-84fd-fe8cd0ea7e98" name="TemplateFilePath" value="ClassTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4">
+            <elementDefinition Id="e60f749a-3d52-4def-88ef-1cbae7c12442" />
+          </propertyInstance>
+          <elementDefinition Id="fb170dab-dc8e-43b0-9bcf-a642f22fc620" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="79cc3939-b699-41d5-9618-f133328f9f89">
+          <propertyInstance Id="1e0e49d4-337c-4434-af44-26fa0104c530" name="ProjectPath" value="ClassTemplate=..\QtQmlLib\QtQmlLib.csproj|EnumTemplate=..\QtQmlLib\QtQmlLib.csproj|InterfaceTemplate=..\QtQmlLib\QtQmlLib.csproj|StructTemplate=..\QtQmlLib\QtQmlLib.csproj">
+            <elementDefinition Id="3b5bac4e-76d3-46cd-92f6-88ee6e3237d1" />
+          </propertyInstance>
+          <elementDefinition Id="c80415ee-c822-4677-9a11-3c7f77781582" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="e45e83ac-250a-4bb8-a2aa-66e7bf8e9318">
+          <propertyInstance Id="6203bdbe-0843-4990-9054-383aaaa5f09e" name="TargetDirectory" value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}">
+            <elementDefinition Id="90b718dd-b39b-4f72-b76d-63792116779f" />
+          </propertyInstance>
+          <elementDefinition Id="5afef330-daa4-44a6-8762-237ed6caccd6" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="4f7dc9a0-ea26-44ff-a33f-842a24f645a2">
+          <propertyInstance Id="a8bfa91a-28c1-407d-904b-36f05b999d97" name="TargetName" value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}">
+            <elementDefinition Id="9d922c21-4ccd-42a1-88be-f32a90e23c5b" />
+          </propertyInstance>
+          <elementDefinition Id="f12b5d7b-36ee-4dd6-a332-e5b91b981686" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="52e5250b-55a3-43b2-b601-ada276858b26">
+          <propertyInstance Id="fc4d45b8-87d8-4c4d-ac38-b0eb7ce1af62" name="Overwrite" value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True">
+            <elementDefinition Id="dd3af57f-79ad-40bd-bd6f-e2e36b1887fd" />
+          </propertyInstance>
+          <elementDefinition Id="4ca73d1e-ef25-4c09-a041-bfc05faa9d63" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="1e49c563-ef91-44a4-ae58-20096a6fdebc">
+          <propertyInstance Id="014dc701-a24b-4458-9420-bf3eed080766" name="Parameters">
+            <elementDefinition Id="f951a683-4266-4936-9d9b-1645ad0bfbbf" />
+          </propertyInstance>
+          <elementDefinition Id="5cf341cf-8f7b-4c92-8a9a-74f30099f947" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="35dabfd9-414e-4138-a644-872bf11dc3a5" name="QtObject" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b39dcc17-c3a5-46f3-b711-f9c5de73a93d" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="cc8cab5d-e579-49ac-9d3e-0df2f8592d6e" name="Item" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="233922c5-071a-4051-b63d-d38e0f8a515d" />
+        <generalsInternal>
+          <generalization Id="8bf4ab20-7f70-4a73-92f9-e77694345ab8" isSubstitutable="false">
+            <classMoniker Id="2660db86-5fee-4c51-b88d-cf77420f669c" LastKnownName="QQmlParserStatus" />
+            <elementDefinition Id="d903d95f-46ec-4492-83b9-3c21c4dbdb22" />
+          </generalization>
+          <generalization Id="adb19891-a242-4cbd-b5c4-81e5fc3fba2c" isSubstitutable="false">
+            <classMoniker Id="35dabfd9-414e-4138-a644-872bf11dc3a5" LastKnownName="QtObject" />
+            <elementDefinition Id="2498e4d7-6c74-43cc-a754-8663f409d881" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="4394e03b-f0a9-4ab5-b08d-167c1fc651eb" name="FocusScope" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="6fab79db-2c2e-4fa8-a54c-371237005df8" />
+        <generalsInternal>
+          <generalization Id="4d5384de-92fc-4d83-9336-f6bc8666939c" isSubstitutable="false">
+            <classMoniker Id="cc8cab5d-e579-49ac-9d3e-0df2f8592d6e" LastKnownName="Item" />
+            <elementDefinition Id="0404330b-0b26-42f9-9161-46accf68d050" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="d161ce8e-9c56-4f31-885f-af2f90dab0f8" name="ToolButton" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="e6547d18-a80a-45f1-b3f8-11209c8c83a4" />
+        <suppliersInternal>
+          <dependency Id="e896213b-e70e-4721-9fae-1151a6f8dd7f">
+            <classMoniker Id="1894c48e-348d-4019-b2dc-564dee670a5b" LastKnownName="ToolBar" />
+            <elementDefinition Id="135cae7b-e51a-4ee8-9a5b-c0d7689cc19d" />
+          </dependency>
+        </suppliersInternal>
+        <generalsInternal>
+          <generalization Id="ef8f8567-3447-4403-8eb8-0c8efb64ef8d" isSubstitutable="false">
+            <classMoniker Id="29c3c49b-9374-4f66-be40-0053bbdf9af9" LastKnownName="Button" />
+            <elementDefinition Id="aa69bfa5-8df6-4fe3-8ddd-4de525c0c867" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="29c3c49b-9374-4f66-be40-0053bbdf9af9" name="Button" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="bd4787c1-fb72-4035-af99-1a4242ae0304" />
+        <generalsInternal>
+          <generalization Id="83f488d0-1442-47bd-b747-c05b854d0c14" isSubstitutable="false">
+            <classMoniker Id="4394e03b-f0a9-4ab5-b08d-167c1fc651eb" LastKnownName="FocusScope" />
+            <elementDefinition Id="67efdbbd-1e01-41d4-92f5-515a61a83ac6" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="95c54e7d-3011-475d-8ec4-62de5a93d58a" name="Tab" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="99758bcd-35b2-4c8e-a17b-c29ec12a2060" />
+        <generalsInternal>
+          <generalization Id="273d210b-cc49-4f6c-99a3-3fa84856fb94" isSubstitutable="false">
+            <classMoniker Id="62c212eb-2b71-483c-b2f4-43e6ef92232a" LastKnownName="Loader" />
+            <elementDefinition Id="b9e930bb-334c-4147-ae0b-1454e3004eca" />
+          </generalization>
+        </generalsInternal>
+        <targetEnds>
+          <association Id="ed3a7f15-054f-45b7-be92-7da90dfd15a6" isDerived="false" sourceEndRoleName="Tab" targetEndRoleName="TabView" isLeaf="false" isAbstract="false">
+            <classMoniker Id="d34600e9-7dce-4295-bd8d-af519b9c8240" LastKnownName="TabView" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6d4e0953-c6ca-48cd-aa15-e39528beceff" name="Tab" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="00493ba4-fc07-42c9-9305-d8bdf14970dc" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="eee72648-921f-46be-9529-09f775f911c2" name="TabView" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="7e30b689-260a-45df-bf80-b00eeeb971bf" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="59b0131b-177b-4c31-bb1c-b36611c15d1d" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="62c212eb-2b71-483c-b2f4-43e6ef92232a" name="Loader" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="bfc12a5d-4c6c-4fb2-9dbf-5d97c2b9e4c6" />
+        <generalsInternal>
+          <generalization Id="c9b5fc7d-6ddd-4ea7-b477-6c7f699e4c28" isSubstitutable="false">
+            <classMoniker Id="cc8cab5d-e579-49ac-9d3e-0df2f8592d6e" LastKnownName="Item" />
+            <elementDefinition Id="deaeb1f4-fd7b-4a0a-a0e6-8c0101f94349" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="5c4cbf87-1881-4359-974b-007fc7cf49f2" name="TextInput" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="f115e13b-2a4a-41a0-8124-146dff566caa" />
+        <generalsInternal>
+          <generalization Id="e6f95217-38d6-47d2-8e73-66bb95d03004" isSubstitutable="false">
+            <classMoniker Id="cc8cab5d-e579-49ac-9d3e-0df2f8592d6e" LastKnownName="Item" />
+            <elementDefinition Id="bad79c25-4d7f-49aa-a0e7-39d6f7225758" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="6d7191e3-5521-4ca2-b295-6a71c1a341c8" name="AnimatedImage" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="9cb269be-9278-450d-bd49-4de3ed9b7a6a" />
+        <generalsInternal>
+          <generalization Id="49c2f1bb-17e8-4781-be80-cab6bbb0c57a" isSubstitutable="false">
+            <classMoniker Id="46d08854-3f0b-4d41-883b-650335410223" LastKnownName="Image" />
+            <elementDefinition Id="0ce8c6c2-193b-4f92-91b5-a9a0470b6a7e" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="2660db86-5fee-4c51-b88d-cf77420f669c" name="QQmlParserStatus" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="4bc5847d-27a3-4400-8f62-8b5e73796922" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="93cd5a75-0541-47d2-b672-13a8e1ca970a" name="TextEdit" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="0abbe6c5-1e0a-4f47-b04a-1b6f36036756" />
+        <generalsInternal>
+          <generalization Id="266643a2-2f39-4f64-b36e-96dbf0c856ea" isSubstitutable="false">
+            <classMoniker Id="cc8cab5d-e579-49ac-9d3e-0df2f8592d6e" LastKnownName="Item" />
+            <elementDefinition Id="1e4eb07c-d7dd-426e-a1bd-7b19189321ae" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="4e3bb30f-d15e-4ac3-8fa3-5193acb4e27e" name="Text" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="39cdecfa-8fc1-490f-8405-17dcfd0b6aef" />
+        <generalsInternal>
+          <generalization Id="a570203b-6b62-40bf-a629-6d44e3ba6161" isSubstitutable="false">
+            <classMoniker Id="cc8cab5d-e579-49ac-9d3e-0df2f8592d6e" LastKnownName="Item" />
+            <elementDefinition Id="665f7301-46fc-40c4-9a85-a35ecb84ce71" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="46d08854-3f0b-4d41-883b-650335410223" name="Image" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="6729e0b0-f83f-4427-8217-55977fd07b7d" />
+        <generalsInternal>
+          <generalization Id="88fa2490-5450-425b-ba16-47a888822782" isSubstitutable="false">
+            <classMoniker Id="cc8cab5d-e579-49ac-9d3e-0df2f8592d6e" LastKnownName="Item" />
+            <elementDefinition Id="6df44a59-1b2d-4939-832c-3e54608a39b3" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="6ad2876a-f177-43d9-9540-8040c11fd044" name="MouseArea" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="9ff60771-583c-450f-a9b6-51fda047659c" />
+        <generalsInternal>
+          <generalization Id="53c16b31-7846-41b1-933d-55f229d2ca20" isSubstitutable="false">
+            <classMoniker Id="cc8cab5d-e579-49ac-9d3e-0df2f8592d6e" LastKnownName="Item" />
+            <elementDefinition Id="f30973c8-733e-4e5d-a75c-6854e3697573" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="8ad07e61-cf7f-4dd7-9152-adc642027c76" name="CheckBox" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="7fffbf7f-49c5-4827-9b7a-42db07b4b4f8" />
+        <generalsInternal>
+          <generalization Id="ee8f3720-be62-4b55-af92-8b9ea332fb02" isSubstitutable="false">
+            <classMoniker Id="4394e03b-f0a9-4ab5-b08d-167c1fc651eb" LastKnownName="FocusScope" />
+            <elementDefinition Id="018bb756-b2db-4c93-96ab-9267336d5f84" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="e202db16-0ce3-4432-ac0e-809ea61e8448" name="ComboBox" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="f7034a99-80a3-4f0f-bb11-b5c71e193c0c" />
+        <generalsInternal>
+          <generalization Id="41b95cf0-884d-4a10-a6c1-4186d3124598" isSubstitutable="false">
+            <classMoniker Id="4394e03b-f0a9-4ab5-b08d-167c1fc651eb" LastKnownName="FocusScope" />
+            <elementDefinition Id="0dbc83ab-8c10-47bb-915a-8651bd2db57d" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="94f2a2e3-86c4-4bd6-96a4-25463ad20131" name="Calendar" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="825c18d9-0e8f-4dab-befe-845544f908e3" />
+        <generalsInternal>
+          <generalization Id="49e44a63-f2db-4e2c-960a-761c21df3040" isSubstitutable="false">
+            <classMoniker Id="4394e03b-f0a9-4ab5-b08d-167c1fc651eb" LastKnownName="FocusScope" />
+            <elementDefinition Id="b5f72851-6529-4ded-b80c-3acdc3646451" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="65dcf0d0-5e7b-489c-96ce-24df37a756f6" name="ScrollView" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="4a0c2a01-2603-4662-a049-c12de001a828" />
+        <generalsInternal>
+          <generalization Id="d8704e84-3b86-4c78-aa96-0832ed320030" isSubstitutable="false">
+            <classMoniker Id="4394e03b-f0a9-4ab5-b08d-167c1fc651eb" LastKnownName="FocusScope" />
+            <elementDefinition Id="4000f138-b5e9-4d46-ad26-51e74a8b7eb1" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="49698a8a-3edf-49f3-863a-c4a6e3cb3b89" name="TreeView" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="73f8c0fc-fee8-4147-b95a-3249f68f7bc6" />
+        <generalsInternal>
+          <generalization Id="fed85d32-1777-4d83-a994-fa3322e2a460" isSubstitutable="false">
+            <classMoniker Id="65dcf0d0-5e7b-489c-96ce-24df37a756f6" LastKnownName="ScrollView" />
+            <elementDefinition Id="d9309747-8d99-497e-b927-588613a2dc50" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="1894c48e-348d-4019-b2dc-564dee670a5b" name="ToolBar" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="63346bd5-dd73-45a2-b57b-bb50eaefa72a" />
+        <generalsInternal>
+          <generalization Id="d58e48bb-c588-49ff-a2bd-bd5e5c027969" isSubstitutable="false">
+            <classMoniker Id="4394e03b-f0a9-4ab5-b08d-167c1fc651eb" LastKnownName="FocusScope" />
+            <elementDefinition Id="db02e264-79c2-47a4-b7d1-04f1fc1d7b97" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="49dba077-e0b5-4f41-8d3a-5107daa580a5" name="TextField" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="09ef779a-a0f2-49b8-aa68-fd4495e73b0c" />
+        <generalsInternal>
+          <generalization Id="ff62fb64-5955-45e1-b441-6b8bdd1d31f7" isSubstitutable="false">
+            <classMoniker Id="4394e03b-f0a9-4ab5-b08d-167c1fc651eb" LastKnownName="FocusScope" />
+            <elementDefinition Id="6517e161-6662-4408-99d3-0f730435c254" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="50fb6417-7e6d-4e44-8a2c-712b03980e15" name="TextArea" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="088bd323-9f83-4144-a78a-bc6d07a97296" />
+        <generalsInternal>
+          <generalization Id="92cd1b25-149f-48ca-a530-ea0c4e028c9a" isSubstitutable="false">
+            <classMoniker Id="65dcf0d0-5e7b-489c-96ce-24df37a756f6" LastKnownName="ScrollView" />
+            <elementDefinition Id="c5d37359-8010-4220-9179-10c18b28cecb" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="45d50abd-3629-4560-964b-0ddf93a13b17" name="TableViewColumn" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="951fae7d-2dde-4abb-beb4-8cb8ba36b6ad" />
+        <generalsInternal>
+          <generalization Id="827b0153-6070-4e0e-b86f-835f5113a642" isSubstitutable="false">
+            <classMoniker Id="35dabfd9-414e-4138-a644-872bf11dc3a5" LastKnownName="QtObject" />
+            <elementDefinition Id="f1d5723b-019d-4173-b08a-d893adb7e868" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="aa7f93f3-2488-49b2-8abf-6fba693ae36c" name="TableView" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="e1ae4914-1c47-4ad3-b3b3-88d99a8d2788" />
+        <generalsInternal>
+          <generalization Id="1ac89fb5-2341-4c24-9de0-38eec0fc7627" isSubstitutable="false">
+            <classMoniker Id="65dcf0d0-5e7b-489c-96ce-24df37a756f6" LastKnownName="ScrollView" />
+            <elementDefinition Id="9781bd94-ca53-45a9-914e-cbee22bc444e" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="d34600e9-7dce-4295-bd8d-af519b9c8240" name="TabView" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="a0b8544d-172c-4950-8a8c-bbd77b5e5e9e" />
+        <generalsInternal>
+          <generalization Id="c35dc47e-f0c2-4e5d-b746-2fc341618afe" isSubstitutable="false">
+            <classMoniker Id="4394e03b-f0a9-4ab5-b08d-167c1fc651eb" LastKnownName="FocusScope" />
+            <elementDefinition Id="5034c795-14f2-41fe-851e-10e66e5dfbfb" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="cff8f275-b28d-4b35-922a-34bc3da97f62" name="Switch" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="d5bcca45-0f44-4034-af97-ae1f7cc5c023" />
+        <generalsInternal>
+          <generalization Id="2e51c443-41f8-43f0-a801-032933611ac7" isSubstitutable="false">
+            <classMoniker Id="4394e03b-f0a9-4ab5-b08d-167c1fc651eb" LastKnownName="FocusScope" />
+            <elementDefinition Id="f897612f-62a4-4e72-9ae0-7bb8f23762a4" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="9ae365a3-c7b2-4fd6-8e64-2da711a24b3b" name="StatusBar" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="6419d728-d570-4bfa-8f78-48d97cab0d03" />
+        <generalsInternal>
+          <generalization Id="4c72d092-a540-4328-82c2-3022e42aab01" isSubstitutable="false">
+            <classMoniker Id="4394e03b-f0a9-4ab5-b08d-167c1fc651eb" LastKnownName="FocusScope" />
+            <elementDefinition Id="fb03c2ff-cea3-4e99-a9f1-3ff40436daab" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="3f90ed2d-7a52-4fcc-8b93-8ac5f80f14c2" name="StackViewDelegate" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="890d20f2-c633-49fe-bc83-e7bf049db080" />
+        <generalsInternal>
+          <generalization Id="700c081f-4bf7-4a54-bebe-bf256f472bc5" isSubstitutable="false">
+            <classMoniker Id="35dabfd9-414e-4138-a644-872bf11dc3a5" LastKnownName="QtObject" />
+            <elementDefinition Id="d29eaa34-ad90-431d-80c1-cd4a3fa7206a" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="963d534e-03c3-462b-9789-0f84d2ac2dce" name="StackView" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="170f82e7-a2e8-4ff5-8cd0-908fb41931f3" />
+        <generalsInternal>
+          <generalization Id="afbf4ad5-6bd6-40d5-8c51-19a8eb6ceea4" isSubstitutable="false">
+            <classMoniker Id="4394e03b-f0a9-4ab5-b08d-167c1fc651eb" LastKnownName="FocusScope" />
+            <elementDefinition Id="48464599-8108-42f7-9285-520e0cd16335" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="04b2fe7b-2a89-4baf-aa49-9deb3b4dc3e6" name="SplitView" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="feecff09-4577-4b97-b103-2d03b7822da2" />
+        <generalsInternal>
+          <generalization Id="c2ee17f7-ade9-4565-8d6a-34e368f7e334" isSubstitutable="false">
+            <classMoniker Id="cc8cab5d-e579-49ac-9d3e-0df2f8592d6e" LastKnownName="Item" />
+            <elementDefinition Id="06576977-4e0a-454c-835a-c8db8a93b884" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="9b6f9644-1216-4c12-ae6e-7e9582d7a72b" name="SpinBox" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="9b329525-c21c-4d0e-b422-f551ecb650c2" />
+        <generalsInternal>
+          <generalization Id="4d89f3c3-b0ed-49ec-b0b6-cd9cafeb301b" isSubstitutable="false">
+            <classMoniker Id="4394e03b-f0a9-4ab5-b08d-167c1fc651eb" LastKnownName="FocusScope" />
+            <elementDefinition Id="042dc83c-5322-43fc-bcec-4d412f52f798" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="effba91d-8a9a-4d85-aac2-bfac28145485" name="Slider" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="2bc0b49a-c9ea-4b1b-bb83-3651a32b4388" />
+        <generalsInternal>
+          <generalization Id="3ab32586-1a6b-44a8-ac20-a34ed0a94a35" isSubstitutable="false">
+            <classMoniker Id="4394e03b-f0a9-4ab5-b08d-167c1fc651eb" LastKnownName="FocusScope" />
+            <elementDefinition Id="8540d7d1-9dc5-4085-a71d-13ab2b4e60cc" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="cdab7ff0-902e-4ad8-88fa-b3d423506e2d" name="RadioButton" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="82856aa5-fb5b-44b3-adf7-d822faadcace" />
+        <generalsInternal>
+          <generalization Id="29064c6b-c368-42a4-969e-6cf37b9f0019" isSubstitutable="false">
+            <classMoniker Id="4394e03b-f0a9-4ab5-b08d-167c1fc651eb" LastKnownName="FocusScope" />
+            <elementDefinition Id="ccd553ea-7cc9-430c-aa61-181549d4adab" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="3fabd2a9-8117-4454-b777-12c6dc08d8e6" name="ProgressBar" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="4804fa3a-7944-4f65-8c9e-32816c11c351" />
+        <generalsInternal>
+          <generalization Id="354a3f65-99cb-42b4-be7c-ac1da40ef334" isSubstitutable="false">
+            <classMoniker Id="4394e03b-f0a9-4ab5-b08d-167c1fc651eb" LastKnownName="FocusScope" />
+            <elementDefinition Id="8f83fa19-b089-4f99-b116-287dce74908f" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="169fab97-3ae3-432a-9586-921eb0a31e24" name="Label" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="0913a45f-c988-4b5d-8ba5-847183f9be00" />
+        <generalsInternal>
+          <generalization Id="ad7293ba-bc96-4a0c-aaf2-f1680df8a49e" isSubstitutable="false">
+            <classMoniker Id="4e3bb30f-d15e-4ac3-8fa3-5193acb4e27e" LastKnownName="Text" />
+            <elementDefinition Id="10a62ad5-d9fe-405b-890d-51db064fb5f0" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="19a1299b-cf0f-417d-ac43-783a7e64b446" name="GroupBox" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="9051b4f0-0e35-4164-8b9d-50370f2c9ce6" />
+        <generalsInternal>
+          <generalization Id="def563bd-e34f-43b6-b2fe-08725a29a4db" isSubstitutable="false">
+            <classMoniker Id="4394e03b-f0a9-4ab5-b08d-167c1fc651eb" LastKnownName="FocusScope" />
+            <elementDefinition Id="c8a19721-285c-4c7b-b772-8a84092833ff" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="63df301a-4c67-4c00-9dca-d46b66b0e8d4" name="BusyIndicator" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="5303f635-464b-40e5-b4d5-69bc51115e4f" />
+        <generalsInternal>
+          <generalization Id="bd37e3ed-96dd-4299-b3eb-ef074b7cf84b" isSubstitutable="false">
+            <classMoniker Id="4394e03b-f0a9-4ab5-b08d-167c1fc651eb" LastKnownName="FocusScope" />
+            <elementDefinition Id="38ffd065-9ec5-4815-9f24-9f20095852ec" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="eb5a96e7-8bca-45dd-a95e-b4d270951059" name="Window" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="63cf50bb-911b-4975-9ffc-0aada656208e" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="f3414790-4172-4b92-92a4-bb4fa80bf33a" name="ApplicationWindow" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b7b1efb4-a847-4158-a770-cd5b366dd4f9" />
+        <generalsInternal>
+          <generalization Id="0c19488f-4732-46ec-a911-7deb2ea4a3b8" isSubstitutable="false">
+            <classMoniker Id="eb5a96e7-8bca-45dd-a95e-b4d270951059" LastKnownName="Window" />
+            <elementDefinition Id="bbe02be8-d94c-4c08-9868-9bcd11d3dea5" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="6e91f997-267d-4c72-a76e-ba7a3481f525" name="Action" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="415ce832-1e9c-463b-a7a8-badbbc1d6ffc" />
+        <targetEnds>
+          <association Id="66d63bac-ad91-4f9c-9d8e-2b04cabc9d38" isDerived="false" sourceEndRoleName="Action" targetEndRoleName="Button" isLeaf="false" isAbstract="false">
+            <classMoniker Id="29c3c49b-9374-4f66-be40-0053bbdf9af9" LastKnownName="Button" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b7d36c8f-d4d1-4458-8385-86985e2e7e5e" name="Action" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="2e90fea6-becf-402c-92ef-9e9dec87f611" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="18d8c026-d33a-41eb-b317-35988f4f9deb" name="Button" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <elementDefinition Id="2252c318-506b-48ba-bc16-1473fddc1e74" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="6aa8e390-2ccc-4055-9a1f-32a35552cfec" />
+          </association>
+          <association Id="0727b843-96ae-4b15-b15c-6f101414d849" isDerived="false" sourceEndRoleName="Action" targetEndRoleName="ToolButton" isLeaf="false" isAbstract="false">
+            <classMoniker Id="d161ce8e-9c56-4f31-885f-af2f90dab0f8" LastKnownName="ToolButton" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0ecf3dae-8639-45a1-b94b-654622ff0c33" name="Action" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="db6ed2f9-9a0f-4cf2-9dde-18647ed90035" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f7b8014c-bc6f-479d-895f-ecc41f523411" name="ToolButton" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <elementDefinition Id="4b44dc16-567d-4152-81dd-8152f5c091ed" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="823cf489-0cf2-4d6a-be5d-aeae154cae51" />
+          </association>
+          <association Id="762836c7-0cc4-45e2-80d2-99a446cb2b63" isDerived="false" sourceEndRoleName="Action" targetEndRoleName="MenuItem" isLeaf="false" isAbstract="false">
+            <classMoniker Id="a35a6594-9527-4d5c-b702-8203ff1f70b0" LastKnownName="MenuItem" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4354103e-686f-4b75-9c1c-18fb4f4bb763" name="Action" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a721a8e7-54ee-4788-bec7-8522d2a9f356" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0e984a30-8d42-4338-80f7-99b450fc81d5" name="MenuItem" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <elementDefinition Id="2d4b6ca4-07c6-46dc-9e7c-476748400136" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="12c83fb4-77b1-4857-bfa6-f34a8089a2be" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="a35a6594-9527-4d5c-b702-8203ff1f70b0" name="MenuItem" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="ee9fd5d2-3409-4707-9f5b-3068263b3268" />
+        <suppliersInternal>
+          <dependency Id="18df33c6-aefd-4198-bb3e-11583e91f4e5">
+            <classMoniker Id="cc817eb0-c267-405e-bec5-c74a458f17a9" LastKnownName="Menu" />
+            <elementDefinition Id="3d23536d-7b9b-41d1-a26c-cd6bd4ac3575" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="5f6e5cec-d6ae-4464-85e2-f42c411e712e" name="MenuBar" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="6b4c3f0e-baed-4ba6-bb7d-0e7d557b2b39" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="ea76ee1c-d7b1-4a72-945c-3b9d4d1e4d3b" name="MenuSeparator" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="32824f85-712e-4ff6-b1ca-1c6e19716ff2" />
+        <suppliersInternal>
+          <dependency Id="e1a5d0b7-06e8-49e1-80e2-3c944d727c9b">
+            <classMoniker Id="cc817eb0-c267-405e-bec5-c74a458f17a9" LastKnownName="Menu" />
+            <elementDefinition Id="34477dd2-d4b7-43a5-a4b0-77b28b1985b4" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="e0b952bd-7418-42d5-8726-5d31e881a725" name="Column" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="c4dca88d-197e-4863-a669-0d76a9cfde2b" />
+        <generalsInternal>
+          <generalization Id="9ad0f42c-8778-4ce2-841e-16bd580d61f9" isSubstitutable="false">
+            <classMoniker Id="cc8cab5d-e579-49ac-9d3e-0df2f8592d6e" LastKnownName="Item" />
+            <elementDefinition Id="4f1113ef-45f8-4836-924d-d0bc08b29e85" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="efd4e47e-076c-44b8-a586-f67dc347f647" name="Row" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="0196600c-7199-4062-ac3e-d69081945c81" />
+        <generalsInternal>
+          <generalization Id="3a2c3f95-4c4d-486a-b076-7f8867dbbee5" isSubstitutable="false">
+            <classMoniker Id="cc8cab5d-e579-49ac-9d3e-0df2f8592d6e" LastKnownName="Item" />
+            <elementDefinition Id="f0cbc350-67b5-4020-9db0-5217e499973e" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="c6fb93b4-bfe0-4d08-8425-8a01a24c952e" name="Grid" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="3eaf1907-28e7-450f-8809-fa09e9c131a1" />
+        <generalsInternal>
+          <generalization Id="27ba08d1-4beb-4707-9525-0f5bdda5e626" isSubstitutable="false">
+            <classMoniker Id="cc8cab5d-e579-49ac-9d3e-0df2f8592d6e" LastKnownName="Item" />
+            <elementDefinition Id="7075c18d-2576-4d4b-ac46-8aa6530f869e" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="cc817eb0-c267-405e-bec5-c74a458f17a9" name="Menu" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="691795cc-0c9d-4d79-ae62-33db22518c31" />
+        <suppliersInternal>
+          <dependency Id="cba5f157-d41f-4ad9-a834-3f3eeda10c5d">
+            <classMoniker Id="5f6e5cec-d6ae-4464-85e2-f42c411e712e" LastKnownName="MenuBar" />
+            <elementDefinition Id="1724d789-e67a-4399-bccd-831685e979be" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="ea850ed6-e834-4b8c-baf6-f2054891708f" name="Flow" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="265c6fa6-17db-4cb3-9142-e0878c7a289e" />
+        <generalsInternal>
+          <generalization Id="5ad4ce2f-e8ce-426b-90b9-78e571552b80" isSubstitutable="false">
+            <classMoniker Id="cc8cab5d-e579-49ac-9d3e-0df2f8592d6e" LastKnownName="Item" />
+            <elementDefinition Id="78feb370-9cbc-4af8-94a1-d5f2b209d819" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="2469e32b-e464-4f6c-b1a3-e56435d5c89b" name="ColumnLayout" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="84c4411b-ffbc-4949-a672-1e5416295a5f" />
+        <generalsInternal>
+          <generalization Id="77f27439-bd40-401c-849e-57b1f279da6c" isSubstitutable="false">
+            <classMoniker Id="cc8cab5d-e579-49ac-9d3e-0df2f8592d6e" LastKnownName="Item" />
+            <elementDefinition Id="9d64fa88-9f46-490e-9f5e-17453bb74cee" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="0d5259fd-f4d7-402b-b61f-75e2a7e6afe0" name="GridLayout" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="5856dc5c-d433-444b-862b-d1ab497c9490" />
+        <generalsInternal>
+          <generalization Id="d4c99790-138a-4541-9c28-9b1b00d7dc3e" isSubstitutable="false">
+            <classMoniker Id="cc8cab5d-e579-49ac-9d3e-0df2f8592d6e" LastKnownName="Item" />
+            <elementDefinition Id="edc25914-576e-4616-8b64-4bc5769ce01e" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="b872f9d2-f2a7-474d-a97f-18318eb1b1d2" name="RowLayout" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="3117cdf8-f232-4c8d-8b73-9dcb4b8a694b" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="4356adbd-71c9-48d8-9537-33f399cfee6b" name="SplitView" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="15acf209-4043-47de-a00d-13a8c816a193" />
+        <generalsInternal>
+          <generalization Id="1c3cacbe-6424-4e1c-9451-524e7de986cb" isSubstitutable="false">
+            <classMoniker Id="cc8cab5d-e579-49ac-9d3e-0df2f8592d6e" LastKnownName="Item" />
+            <elementDefinition Id="288f71f2-d918-46d3-bd88-de8ad6eb6f35" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="ddafd6f6-ea18-485d-b445-e87e9f173568" name="Flickable" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="78850c15-8d05-466c-8883-6088b7486fb2" />
+        <generalsInternal>
+          <generalization Id="7c7f6cab-7792-4684-864c-98861396d6d6" isSubstitutable="false">
+            <classMoniker Id="cc8cab5d-e579-49ac-9d3e-0df2f8592d6e" LastKnownName="Item" />
+            <elementDefinition Id="5d79379f-7016-4d21-beb5-0a67c6238aa8" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="4789697d-6910-4b84-9ee7-669ccf71e7a8" name="ListView" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="9c83e930-7363-4d7d-805e-cd5a0574d684" />
+        <generalsInternal>
+          <generalization Id="29d55104-d103-41d6-b58c-e38c381173f0" isSubstitutable="false">
+            <classMoniker Id="ddafd6f6-ea18-485d-b445-e87e9f173568" LastKnownName="Flickable" />
+            <elementDefinition Id="8543c077-a1a1-4605-ae89-c9caadd3e73f" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="e8566865-8c8f-4578-8a24-d268a05f4b09" name="GridView" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="dd3a0121-a7f2-49c1-9420-7a37e7349832" />
+        <generalsInternal>
+          <generalization Id="ed8536d5-5d1e-426c-bde3-9dfc46374730" isSubstitutable="false">
+            <classMoniker Id="ddafd6f6-ea18-485d-b445-e87e9f173568" LastKnownName="Flickable" />
+            <elementDefinition Id="c907a7dc-a9a8-4a7e-8288-7d9610dad4f8" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="28447e24-be56-43e9-9eaf-bb5fae17f57c" name="PathView" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="f0c62602-bff9-40ef-b75a-b2266011987d" />
+        <generalsInternal>
+          <generalization Id="39dbbc61-507a-421e-a643-6204db8e34ed" isSubstitutable="false">
+            <classMoniker Id="cc8cab5d-e579-49ac-9d3e-0df2f8592d6e" LastKnownName="Item" />
+            <elementDefinition Id="f020675f-cd25-4394-9aa2-24253ae85396" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="43704878-aa40-4b62-b166-4da74ba4405a" name="QtQml">
+    <elementDefinition Id="099d08e0-f1f9-48d3-adce-f6f6edd6055f" />
+    <profileInstances>
+      <packageHasProfileInstances Id="1d8bbc16-fc30-4746-8d26-f47c4e3ed5f3">
+        <profileInstance Id="695f2c49-885a-4e58-a67b-cf93a72d0b52" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="1804f688-e4e9-4bb7-938d-57d7b8c91184">
+        <profileInstance Id="3abae605-bdf7-4c70-ab22-d384458b7690" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="f5d77011-7d74-408b-a2dd-20a3506c0758">
+        <profileInstance Id="e0495ba5-f89e-4ea2-b067-f25f54af6abf" name="CSharpProfile">
+          <elementDefinition Id="d78f894d-1404-4e89-aed0-024e7fdb41b4" />
+        </profileInstance>
+        <elementDefinition Id="751ecbdf-3d14-4b8e-8a4e-dcb60e3cebff" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="5b567241-1a49-4753-979b-7fe43be1b143">
+        <profileInstance Id="54ba94ad-02b2-4f92-8687-4d4d0717cfe9" name="TextTemplateBindings">
+          <elementDefinition Id="9351794a-ad49-466e-9b3c-ed2135d1aa20" />
+        </profileInstance>
+        <elementDefinition Id="24f4c8eb-a14c-4f51-8ea0-861e10fde99e" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</logicalClassDesignerModel>
