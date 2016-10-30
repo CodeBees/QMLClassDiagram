@@ -610,6 +610,16 @@
           LastKnownLocation="QtQml.uml" />
       </annotatedElements>
     </comment>
+    <comment
+      Id="85b8a742-01a8-4f5e-b36d-985924706aba">
+      <body>QQuickRepeater</body>
+      <annotatedElements>
+        <classMoniker
+          Id="6c8aafa5-ad46-46f1-8d75-ddc75df18fa1"
+          LastKnownName="Repeater"
+          LastKnownLocation="QtQml.uml" />
+      </annotatedElements>
+    </comment>
   </ownedCommentsInternal>
   <appliedStereotypesInternal>
     <stereotypeInstance
@@ -1911,6 +1921,25 @@
         <generalsInternal>
           <generalization
             Id="f020675f-cd25-4394-9aa2-24253ae85396"
+            isSubstitutable="false">
+            <classMoniker
+              Id="233922c5-071a-4051-b63d-d38e0f8a515d"
+              LastKnownName="Item"
+              LastKnownLocation="QtQml.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="6c8aafa5-ad46-46f1-8d75-ddc75df18fa1"
+        name="Repeater"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="246b46bb-af1f-4c48-b365-bf05ab6faea3"
             isSubstitutable="false">
             <classMoniker
               Id="233922c5-071a-4051-b63d-d38e0f8a515d"

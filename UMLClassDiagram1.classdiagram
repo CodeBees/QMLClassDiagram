@@ -440,6 +440,13 @@
         <classMoniker Id="65dcf0d0-5e7b-489c-96ce-24df37a756f6" LastKnownName="ScrollView" />
       </annotatedElements>
     </comment>
+    <comment Id="0aca691c-853c-4fc9-b8b6-717a830e92c5">
+      <elementDefinition Id="85b8a742-01a8-4f5e-b36d-985924706aba" />
+      <body>QQuickRepeater</body>
+      <annotatedElements>
+        <classMoniker Id="a2cfc2ea-c1a7-4058-a039-a059a43c5b5e" LastKnownName="Repeater" />
+      </annotatedElements>
+    </comment>
   </ownedCommentsInternal>
   <appliedStereotypesInternal>
     <stereotypeInstance Id="9b78234b-00b6-4abf-9817-e0988c5076d7" name="namespace" profile="CSharpProfile">
@@ -1168,6 +1175,17 @@
           <generalization Id="39dbbc61-507a-421e-a643-6204db8e34ed" isSubstitutable="false">
             <classMoniker Id="cc8cab5d-e579-49ac-9d3e-0df2f8592d6e" LastKnownName="Item" />
             <elementDefinition Id="f020675f-cd25-4394-9aa2-24253ae85396" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="a2cfc2ea-c1a7-4058-a039-a059a43c5b5e" name="Repeater" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="6c8aafa5-ad46-46f1-8d75-ddc75df18fa1" />
+        <generalsInternal>
+          <generalization Id="9aa0b753-2558-4e27-b58b-e5d3039669ef" isSubstitutable="false">
+            <classMoniker Id="cc8cab5d-e579-49ac-9d3e-0df2f8592d6e" LastKnownName="Item" />
+            <elementDefinition Id="246b46bb-af1f-4c48-b365-bf05ab6faea3" />
           </generalization>
         </generalsInternal>
       </class>
