@@ -359,9 +359,6 @@
     <comment Id="34bb1831-25ad-4a50-a50a-dc031516f661">
       <elementDefinition Id="265ade5c-10aa-41f5-b55d-8f412f14f4a2" />
       <body>QMLTYPE</body>
-      <annotatedElements>
-        <classMoniker Id="04b2fe7b-2a89-4baf-aa49-9deb3b4dc3e6" LastKnownName="SplitView" />
-      </annotatedElements>
     </comment>
     <comment Id="3015b161-df7a-4cda-87b4-85fb4b8bd1b7">
       <elementDefinition Id="9c8ec614-f08a-4c0d-968d-8e88e4169e03" />
@@ -852,17 +849,6 @@
           <generalization Id="afbf4ad5-6bd6-40d5-8c51-19a8eb6ceea4" isSubstitutable="false">
             <classMoniker Id="4394e03b-f0a9-4ab5-b08d-167c1fc651eb" LastKnownName="FocusScope" />
             <elementDefinition Id="48464599-8108-42f7-9285-520e0cd16335" />
-          </generalization>
-        </generalsInternal>
-      </class>
-    </logicalClassDesignerModelHasTypes>
-    <logicalClassDesignerModelHasTypes>
-      <class Id="04b2fe7b-2a89-4baf-aa49-9deb3b4dc3e6" name="SplitView" isAbstract="false" isLeaf="false" isActiveClass="false">
-        <elementDefinition Id="feecff09-4577-4b97-b103-2d03b7822da2" />
-        <generalsInternal>
-          <generalization Id="c2ee17f7-ade9-4565-8d6a-34e368f7e334" isSubstitutable="false">
-            <classMoniker Id="cc8cab5d-e579-49ac-9d3e-0df2f8592d6e" LastKnownName="Item" />
-            <elementDefinition Id="06576977-4e0a-454c-835a-c8db8a93b884" />
           </generalization>
         </generalsInternal>
       </class>
