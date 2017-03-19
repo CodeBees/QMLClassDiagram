@@ -1949,6 +1949,101 @@
         </generalsInternal>
       </class>
     </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="8c9cbaf5-fe41-4c80-b71b-80778e722920"
+        name="Popup"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="225fb7ad-5faf-4c8c-8d2a-476cb756629e"
+            isSubstitutable="false">
+            <classMoniker
+              Id="b39dcc17-c3a5-46f3-b711-f9c5de73a93d"
+              LastKnownName="QtObject"
+              LastKnownLocation="QtQml.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="e28e2e6e-1462-45f4-b0fb-20ef744b18f6"
+        name="Dialog"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="5357b953-b523-49a4-be40-553e2e3c0872"
+            isSubstitutable="false">
+            <classMoniker
+              Id="8c9cbaf5-fe41-4c80-b71b-80778e722920"
+              LastKnownName="Popup"
+              LastKnownLocation="QtQml.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="95a1365c-3562-4055-bcd4-b5132a1fbd08"
+        name="Drawer"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="11f38848-a35e-403e-8faa-1d7e3bdc4f0e"
+            isSubstitutable="false">
+            <classMoniker
+              Id="8c9cbaf5-fe41-4c80-b71b-80778e722920"
+              LastKnownName="Popup"
+              LastKnownLocation="QtQml.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="ca0936f3-f2ba-4ffc-91e2-f3bfa057e86d"
+        name="Menu"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="bc234730-835f-4128-99af-f2ba4c16886b"
+            isSubstitutable="false">
+            <classMoniker
+              Id="8c9cbaf5-fe41-4c80-b71b-80778e722920"
+              LastKnownName="Popup"
+              LastKnownLocation="QtQml.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="a1c04a32-5946-4347-b60a-6657073eba93"
+        name="ToolTip"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="c5b2c9eb-d8a3-4966-9bc8-0ecb012f92ca"
+            isSubstitutable="false">
+            <classMoniker
+              Id="8c9cbaf5-fe41-4c80-b71b-80778e722920"
+              LastKnownName="Popup"
+              LastKnownLocation="QtQml.uml" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </packageHasNamedElement>
   </packagedElements>
   <primitiveType
     Id="220a3521-e091-4221-bae9-3ef9018e845c"

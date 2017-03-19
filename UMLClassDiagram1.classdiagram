@@ -1176,6 +1176,61 @@
         </generalsInternal>
       </class>
     </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="43a23f11-5e3b-47c5-84c4-a96042eec682" name="Popup" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="8c9cbaf5-fe41-4c80-b71b-80778e722920" />
+        <generalsInternal>
+          <generalization Id="2188a0db-90ae-414a-9dba-ee386556c986" isSubstitutable="false">
+            <classMoniker Id="35dabfd9-414e-4138-a644-872bf11dc3a5" LastKnownName="QtObject" />
+            <elementDefinition Id="225fb7ad-5faf-4c8c-8d2a-476cb756629e" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="16d2ae1c-f90d-47cc-8d1b-cce89908d580" name="Dialog" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="e28e2e6e-1462-45f4-b0fb-20ef744b18f6" />
+        <generalsInternal>
+          <generalization Id="18c63969-65bf-4738-a976-fc0765bcd63a" isSubstitutable="false">
+            <classMoniker Id="43a23f11-5e3b-47c5-84c4-a96042eec682" LastKnownName="Popup" />
+            <elementDefinition Id="5357b953-b523-49a4-be40-553e2e3c0872" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="bbc2dac3-b7e1-4cd8-8a31-2f0edff2abd0" name="Drawer" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="95a1365c-3562-4055-bcd4-b5132a1fbd08" />
+        <generalsInternal>
+          <generalization Id="244313bb-04f2-4f49-a798-8d8bee58b4a5" isSubstitutable="false">
+            <classMoniker Id="43a23f11-5e3b-47c5-84c4-a96042eec682" LastKnownName="Popup" />
+            <elementDefinition Id="11f38848-a35e-403e-8faa-1d7e3bdc4f0e" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="8374e1a3-92ff-40d4-9185-79bdc4c1e689" name="Menu" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="ca0936f3-f2ba-4ffc-91e2-f3bfa057e86d" />
+        <generalsInternal>
+          <generalization Id="f27416be-ef0c-41de-867b-3f90d7e49845" isSubstitutable="false">
+            <classMoniker Id="43a23f11-5e3b-47c5-84c4-a96042eec682" LastKnownName="Popup" />
+            <elementDefinition Id="bc234730-835f-4128-99af-f2ba4c16886b" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="e90d20dc-5aa4-49e1-935c-1bc4aea43b9f" name="ToolTip" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="a1c04a32-5946-4347-b60a-6657073eba93" />
+        <generalsInternal>
+          <generalization Id="b2b12e71-95dd-44ae-a4b6-73e6f62b4369" isSubstitutable="false">
+            <classMoniker Id="43a23f11-5e3b-47c5-84c4-a96042eec682" LastKnownName="Popup" />
+            <elementDefinition Id="c5b2c9eb-d8a3-4966-9bc8-0ecb012f92ca" />
+          </generalization>
+        </generalsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
   </packagedElements>
   <package Id="43704878-aa40-4b62-b166-4da74ba4405a" name="QtQml">
     <elementDefinition Id="099d08e0-f1f9-48d3-adce-f6f6edd6055f" />
